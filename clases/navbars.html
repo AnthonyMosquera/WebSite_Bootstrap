@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b7e35de632.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <title>Navbars en Bootstrap 4</title>
+</head>
+<body>
+    <!-- Barra de navegación Simple -->
+    <div class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <hr>
+    <!-- Barra de navegación Toggle -->
+    <div class="navbar navbar-expand-xl navbar-light bg-light mt-4">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <!-- Barra de navegación con Formulario -->
+    <div class="navbar navbar-expand-sm navbar-light bg-light mt-4">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Contacto</a>
+                    </li>
+                </ul>
+
+                <form class="form-inline">
+                    <input class="form-control" type="text" placeholder="Buscar">
+                    <button class="btn btn-outline-info">Buscar</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <!-- Barra de navegación con Emergente o Dropdown -->
+    <div class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Servicios</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"> Dropdown</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item"> Enlace 01</a>
+                        <a href="#" class="dropdown-item"> Enlace 02</a>
+                        <a href="#" class="dropdown-item"> Enlace 03</a>
+                        <a href="#" class="dropdown-item"> Enlace 04</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <hr>
+    <!-- Barra de navegación Simple dark -->
+    <div class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <hr>
+    <!-- Barra de navegación Simple primary -->
+    <div class="navbar navbar-expand-sm navbar-dark bg-primary mt-2">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <hr>
+
+    <hr>
+    <!-- Barra de navegación pegado arriba -->
+    <nav class="navbar fixed-top navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">Barra fija arriba</a>
+    </nav>
+
+    <hr>
+    <!-- Barra de navegación pegado abajo -->
+    <nav class="navbar fixed-bottom navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">Barra fija abajo</a>
+    </nav>
+
+    <hr>
+    <!-- Barra sticky top | barra fija mientras texto sigue bajando -->
+    <!-- <nav class="navbar sticky-top navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">Barra fija hasta que llegue el texo</a>
+    </nav> -->
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus earum in, fuga architecto velit voluptatum iste quod dicta cupiditate, iure nostrum amet? Laborum esse repudiandae expedita, ad commodi rerum! Aliquid veniam placeat iure debitis et iusto corporis, recusandae voluptate odio, alias deleniti quod animi quidem corrupti reprehenderit provident quisquam. Soluta culpa ad perferendis libero deleniti dolorum voluptas officia, suscipit aliquam voluptatem harum. Quod in culpa aliquid quisquam corporis expedita necessitatibus magni porro unde eveniet. Ipsum ex voluptatum quibusdam aut quod! Quibusdam velit nesciunt voluptatum aperiam harum officiis ratione hic dignissimos, quisquam, quo nobis modi perspiciatis assumenda autem ipsam impedit reprehenderit corrupti facilis. Quos et earum eaque error cumque, incidunt obcaecati doloribus fugiat, omnis perferendis, natus nostrum? Recusandae eveniet deserunt odit maiores est odio, quae suscipit laboriosam nam ea vel illo commodi id tempore officia, aspernatur, omnis aliquid veritatis explicabo? Rem molestias veritatis dolorem sit nemo illum incidunt expedita delectus eius. Magnam aperiam commodi quibusdam sequi, eveniet esse totam cumque id vero soluta. Recusandae odit consequuntur eveniet repellendus, provident unde libero facilis voluptate perspiciatis ipsum quisquam, repudiandae blanditiis incidunt exercitationem itaque dicta corrupti quidem tempore fuga porro iure iusto autem nostrum! Illum accusantium quas voluptas iusto et dolores iste! Eos nemo numquam distinctio ipsam dolorem. Ipsam mollitia esse voluptas maxime at ex rerum laborum odio consectetur dolorum quas vel, aut consequuntur harum magnam recusandae cum repellat eligendi neque deserunt quia eaque ullam? Itaque numquam nihil quasi enim sint aut velit, ducimus voluptatem adipisci vitae veniam assumenda ullam, cum corrupti dolorem eos error animi sunt. Ipsam consectetur repellat inventore placeat et distinctio culpa qui fugit, sit iste, eos saepe earum, optio amet dolorem facere nostrum sapiente excepturi veniam quibusdam nulla magni provident? Provident, rerum natus impedit iusto molestias explicabo commodi odio architecto obcaecati exercitationem alias cum, voluptatem sed. Officia ullam necessitatibus repellendus molestiae alias omnis harum distinctio vero porro expedita ea nesciunt similique esse tempore et iste aliquam reprehenderit, voluptates veritatis nostrum aliquid qui tempora nemo. Quam aperiam veritatis ipsam labore ad illo, omnis error neque voluptatum, maxime nisi deserunt maiores ea doloremque voluptatibus eum quod, ratione fugit officia! Veniam illo alias, laboriosam nulla pariatur modi perferendis dolores esse suscipit voluptatem placeat asperiores, voluptas eligendi nihil eveniet voluptates harum, itaque explicabo a sit aut ex? Et quaerat nulla, ullam voluptates eligendi impedit sed, totam earum, perspiciatis delectus corporis saepe molestias minus culpa modi corrupti ea! Fuga incidunt necessitatibus sint! Praesentium excepturi ipsam eveniet facere enim! Provident nobis aut eum mollitia aliquam non beatae, nesciunt temporibus a labore minus ab sapiente, quibusdam debitis officia eaque excepturi sequi recusandae assumenda culpa dolorum incidunt? Ipsam nobis ab quisquam sequi? Repudiandae enim sunt quaerat odit repellat itaque esse accusantium possimus id illum vel magni dolorem quod earum distinctio quia molestiae voluptatum repellendus, porro pariatur voluptas neque ex autem. Ad dolor sit id unde, aut at veritatis necessitatibus architecto aliquid molestias. Possimus, sint soluta. Maxime nam expedita quisquam nostrum necessitatibus ex nihil velit optio ea quasi, voluptatibus accusamus corporis debitis et officia obcaecati, amet repudiandae in provident!</p>
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+</body>
+</html>

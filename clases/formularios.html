@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b7e35de632.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <title>Componentes CSS - Formularios</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="row mt-5">
+            <form>
+
+                <!-- Campos de tipo Texto-->
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input class="form-control" type="text" placeholder="Ingresa tu nombre">
+                </div>
+                <hr>
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input class="form-control" type="email" placeholder="Ingresa tu email">
+                    <small class="form-text text-muted">Este email es valido</small>
+                </div>
+                <hr>
+                <!-- Campo de texto small -->
+                <div class="form-group">
+                    <label for="nombre">Nombre small</label>
+                    <input class="form-control form-control-sm" type="text" placeholder="Ingresa tu nombre">
+                </div>
+                <hr>
+                <!-- Campo de texto large -->
+                <div class="form-group">
+                    <label for="nombre">Nombre small</label>
+                    <input class="form-control form-control-lg" type="text" placeholder="Ingresa tu nombre">
+                </div>
+                <hr>
+                <!-- Campo de texto large -->
+                <div class="form-group">
+                    <label for="contrasena">Contraseña</label>
+                    <input class="form-control" type="password" placeholder="Ingrese tu contraseña">
+                </div>
+                <hr>
+                <!-- Campo de tipo Select | Listado -->
+                <div class="form-group">
+                    <label for="genero">Género</label>
+                    <select id="genero" class="form-control">
+                        <option>Maculino</option>
+                        <option>Femenino</option>
+                    </select>
+                </div>
+                <hr>
+                <!-- Campo de tipo text Area -->
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="5"></textarea>
+                </div>
+                <hr>
+                <!-- Campo de tipo Subida de archivo -->
+                <div class="form-group">
+                    <label for="archivo">Subir archivo</label>
+                    <input class="form-control-file" type="file" id="archivo">
+                    <small class="form-text text-muted">Máximo 2mb.</small>
+                </div>
+                <hr>
+                <!-- Campo de tipo Subida de archivo Personalizado-->
+                <div class="custom-file">
+                    <input class="custom-file-input" type="file" id="archivo">
+                    <label class="custom-file-label" for="archivo">Subir archivo</label>
+                </div>
+                <hr>
+                <!-- Campo de tipo Rango-->
+                <div class="form-group">
+                    <label for="membresia">Membresia Oro</label>
+                    <input type="range" class="custom-range" min="2" max="10" value="3">
+                </div>
+                <hr>
+                <!-- Botón -->
+                <button class="btn btn-primary btn-block" type="submit">Enviar</button>
+                <br>
+            </form>
+            <hr>
+
+            <!-- Formulario en linea -->
+            <form class="form-inline">
+                <input type="text" class="form-control mr-2" placeholder="Ingresa tu usuario">
+                <input type="password" class="form-control mr-2" placeholder="Ingresa tu contraseña">
+                <div class="form-check">
+                    <label class="form-check-label mr-2">
+                        <input type="checkbox" class="form-check-input">Recordar contraseña
+                    </label>
+                </div>
+                <button class="btn btn-success" type="submit"> Ingresar</button>
+            </form>
+        </div>
+
+    </div>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>

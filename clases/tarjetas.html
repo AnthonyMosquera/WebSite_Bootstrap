@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b7e35de632.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <title>Tarjetas - Bootstrap 4</title>
+</head>
+<body>
+
+    <div class="container mt-4">
+        <!-- Card Básica -->
+        <div class="card" >
+            <div class="card-body">
+                <h4 class="card-title">Titulo Tarjeta</h4>
+                <h5 class="card-subtitle text-muted">Subtitulo</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <a class="btn btn-outline-success" href="#">Ver más</a>
+            </div>
+        </div>
+
+        <hr>
+        <!-- Card con imagen -->
+        <div class="card">
+            <img src="https://los40mx00.epimg.net/los40/imagenes/2016/07/13/actualidad/1468365448_417451_1468365586_noticia_normal.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+                <h4 class="card-title">Titulo Tarjeta</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <a class="btn btn-outline-success" href="#">Ver más</a>
+            </div>
+        </div>
+
+        <hr>
+        <!-- Card con encabezado -->
+        <div class="card">
+            <div class="card-header">
+                Emcabezado de tarjeta
+            </div>
+            <div class="card-body">
+                <h4 class="card-title">Titulo Tarjeta</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <a class="btn btn-outline-success" href="#">Ver más</a>
+            </div>
+        </div>
+
+        <hr>
+        <!-- Card con encabezado, pie de pajina, centrado-->
+        <div class="card text-center">
+            <div class="card-header">
+                Emcabezado de tarjeta
+            </div>
+            <div class="card-body">
+                <h4 class="card-title">Titulo Tarjeta</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <a class="btn btn-outline-success" href="#">Ver más</a>
+            </div>
+            <div class="card-footer">
+                Publicado 24-02-2021
+            </div>
+        </div>
+
+        <hr>
+        <!-- Card con encabezado, pie de pajina, Menu-->
+        <div class="card text-center">
+            <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Desactive</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card-body">
+                <h4 class="card-title">Titulo Tarjeta</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <a class="btn btn-outline-success" href="#">Ver más</a>
+            </div>
+            <div class="card-footer">
+                Publicado 24-02-2021
+            </div>
+        </div>
+
+        <hr>
+        <!-- Card con texto sobre imagen -->
+        <div class="card text-white">
+            <img src="https://los40mx00.epimg.net/los40/imagenes/2016/07/13/actualidad/1468365448_417451_1468365586_noticia_normal.jpg" alt="" class="card-img-top">
+            <div class="card-img-overlay">
+                <h4 class="card-title">Titulo Tarjeta</h4>
+                <p class="card-text text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+        <hr>
+        <!-- Card especial -->
+        <div class="card bg-primary text-white">
+            <div class="card-header">
+                Encabezado
+            </div>
+            <div class="card-body">
+                <h4 class="card-title">Titulo Tarjeta</h4>
+                <p class="card-text text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+        <hr>
+        <!-- Card especial -->
+        <div class="card bg-warning text-white">
+            <div class="card-header">
+                Encabezado
+            </div>
+            <div class="card-body">
+                <h4 class="card-title">Titulo Tarjeta</h4>
+                <p class="card-text text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+        <hr>
+        <!-- Card especial -->
+        <div class="card border-success">
+            <div class="card-header">
+                Encabezado
+            </div>
+            <div class="card-body">
+                <h4 class="card-title">Titulo Tarjeta</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+    </div>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+</body>
+</html>
